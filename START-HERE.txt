@@ -1,0 +1,11 @@
+DELTA EQ
+
+Open https://aaronth07.github.io/delta-eq/ or open Delta-EQ-Offline.html in a recent desktop browser. The offline file needs no install, account, API key or network connection.
+
+Import a measurement and target, compare the curves, fit or edit parametric EQ, then export the settings. The example data are synthetic. The app does not play audio or change system EQ.
+
+Use Save session to keep your measurements and settings in a JSON file. Browser storage alone is not a backup. Imported data remain in your browser.
+
+The repository and hosted app are public. README.md explains the workflow and calculations. VALIDATION.md records the tests and their limits. No listening, acoustic or Windows Equalizer APO execution is claimed.
+
+For development, Node 18+ can run npm test and npm run build. No npm install is needed. The optional SciPy crosscheck requires Python, NumPy and SciPy.
